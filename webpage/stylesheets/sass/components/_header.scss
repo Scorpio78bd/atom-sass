@@ -1,6 +1,6 @@
 // *** HEADER PARTIAL ***
 
-header {
+header{
   width: 100vw;
   height: 33px;
   padding: 5px 0;
@@ -17,12 +17,23 @@ header {
     display: flex;
     justify-content: space-between;
 
-    #header-content-left {
+    #header-content-left{
       width: 400px;
       height: 100%;
-    }
 
-    #header-content-right {
+      #ul-nav-left{
+        display: flex;
+        justify-content: space-between;
+
+        li{
+          padding: 8px;
+
+        @extend %fake-link;
+        }
+      }//ul-nav-left
+    } //header-content-left
+
+    #header-content-right{
       width: 100px;
       height: 100%;
     }
