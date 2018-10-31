@@ -2,11 +2,12 @@
 
 #hero{
   width: 100vw;
+  @include basic-flex();
 
   #hero-content{
     width: $content-width;
     height:25px;
     background-color: #ccc;
-
+    
   } //hero-content
 } //hero
