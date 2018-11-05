@@ -58,7 +58,7 @@
               height: 100%;
               width: 100%;
               background-color: #fed153;
-              border-radius: 5px;
+              border-radius: $button-border-radius;
               @include basic-flex(center, center);
 
               img{
