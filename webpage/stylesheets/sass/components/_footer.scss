@@ -23,16 +23,7 @@ footer{
       @include basic-flex(space-between, flex-start, column);
 
       div{
-        width: fit-content;
-        color: $body-color;
-        font-weight: 500;
-        padding: 8px 16px;
-        border-radius: $button-border-radius;
-        background-color: $button-color;
-
-        &:hover{
-          background-color: $hover-color;
-        } //hover
+        @extend %button;
       } //div
     } //footer-content-left
 
