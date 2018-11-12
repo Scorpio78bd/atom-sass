@@ -464,7 +464,7 @@ header #header-content #header-content-right ul li img {
 #feature-1 {
   background: url("media/imgs/teletype-bckr.svg") no-repeat;
   background-size: contain;
-  background-position: calc(50% + 965px) 0%;
+  background-position: calc(50% + 1000px) 0%;
 }
 
 #feature-1 #feature-1-img {
@@ -480,7 +480,7 @@ header #header-content #header-content-right ul li img {
 }
 
 #feature-1 #feature-1-info {
-  padding-left: 390px;
+  padding-left: 85px;
 }
 
 #feature-2 {
@@ -526,13 +526,13 @@ header #header-content #header-content-right ul li img {
 }
 
 #feature-3 #feature-3-info {
-  padding-left: 35px;
+  padding-left: 85px;
 }
 
 .feature-container {
   width: 100vw;
   padding: 100px 0px;
-  margin: 100px 0px;
+  margin: 50px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -541,7 +541,7 @@ header #header-content #header-content-right ul li img {
 
 .feature-img {
   position: relative;
-  left: -180px;
+  left: -100px;
   width: 780px;
   height: 488px;
   border-radius: 5px;
@@ -807,6 +807,7 @@ footer #footer-content #footer-content-right #footer-content-right-uls ul li a:h
 body {
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
   font-size: 100%;
   color: #efeae1;
