@@ -2,7 +2,7 @@
 #feature-1{
   background: url('media/imgs/teletype-bckr.svg') no-repeat;
   background-size: contain;
-  background-position: calc(50% + 965px) 0%;
+  background-position: calc(50% + 1000px) 0%;
 
   #feature-1-img{
     width: 50%;
@@ -17,7 +17,7 @@
   } //feature-1-img
 
   #feature-1-info{
-    padding-left: 390px;
+    padding-left: 85px;
   } //feature-1-info
 } //feature-1
 
@@ -63,7 +63,7 @@
   } //feature-3-img
 
   #feature-3-info{
-    padding-left: 35px;
+    padding-left: 85px;
   } //feature-3-info
 } //feature-3
 
@@ -72,16 +72,16 @@
 .feature-container{
   width: 100vw;
   padding: 100px 0px;
-  margin: 100px 0px;
+  margin: 50px 0px;
   @include basic-flex(center, center);
 }
 
 .feature-img{
   position: relative;
-  left: -180px;
+  left: -100px;
   width: 780px;
   height: 488px;
-  border-radius: 5px;
+  border-radius: $button-border-radius;
   box-shadow: 0 20px 30px rgba(0,0,0,0.5);
 
   transition: filter 2s;
@@ -95,7 +95,7 @@
   @include basic-flex(space-between, flex-start, column);
   @extend %text-link;
 
-      div{
-        @extend %button;
-      } //div
-}
+  div{
+    @extend %button;
+  } //div
+} //feature-info
